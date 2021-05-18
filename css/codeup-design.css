@@ -1,3 +1,251 @@
 @media screen and (min-width: 320px) {
 
+    header {
+        background-color: #E6E6E6;
+        padding: 2em;
+    }
+
+    .row  {
+        justify-content: space-evenly;
+        font-family: 'Abel', sans-serif;
+    }
+
+    .circle {
+        height: 115px;
+        width: 115px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        border: 8px solid white;
+        padding: 0;
+    }
+
+    .red {
+        background-color: #E6563B;
+    }
+
+    .orange {
+        background-color: #DEA03D;
+    }
+
+    .green {
+        background-color: #7CB06C;
+    }
+
+    .blue {
+        background-color: #00ABA9;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #image {
+        display: flex;
+        justify-content: center;
+        margin-top: -2em;
+        width: 100%;
+        height: auto;
+    }
+
+    #bottom-header {
+        margin-top: 5em;
+    }
+
+    #body {
+        background-color: #E6E6E6;
+    }
+
+    #codeup-design {
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+    }
+
+    #visual-design {
+        text-align: center;
+        font-family: 'Anton',sans-serif;
+        font-size: 64px;
+        padding-top: 1em;
+    }
+
+    #park-city {
+        text-align: center;
+        font-family: 'Anton',sans-serif;
+        font-size: 48px;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    #design-circle-text {
+        padding: 33px 6px 11px 16px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    #develop-circle-text {
+        padding: 34px 6px 11px 12px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    #support-circle-text {
+        padding: 34px 6px 11px 10px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    #host-circle-text {
+        padding: 34px 6px 11px 25px;
+        font-family: 'Anton', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    #selected-work {
+        font-family: 'Abel', sans-serif;
+        text-align: center;
+        padding-top: 8em;
+    }
+
+    #apple > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: lightgray solid;
+    }
+
+    .featured {
+        font-family: 'Abel', sans-serif;
+        padding-top: .5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        inline-size: auto;
+    }
+
+    .sml-circle {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 0;
+        /*line-height: 115px;*/
+    }
+
+    .small-circle-row {
+        flex-wrap: wrap;
+        margin: -1px 0 0 -12px;
+        width: calc(40% + 12px);
+        font-family: 'Anton', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+/*    #macbook {*/
+/*        display: none;*/
+/*    }*/
+/*    #head {*/
+/*        display: none*/
+/*    }*/
+/*    #security {*/
+/*        display: none*/
+/*    }*/
+/*    #macbook-box {*/
+/*        display: none*/
+/*    }*/
+/*    #head-box {*/
+/*        display: none*/
+/*    }*/
+/*    #security-box {*/
+/*        display: none*/
+/*    }*/
+/*}*/
+
+@media screen and (min-width: 500px) {
+
+    hr {
+        width: 90%;
+    }
+
+    img {
+        width: 105px;
+        height: 105px;
+        margin-top: 1em;
+    }
+
+    .circle {
+        height: 115px;
+        width: 115px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 8px solid white;
+        padding: 0;
+    }
+
+    .container {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    #services-work {
+        margin-top: -160px;
+        background-color: white;
+        padding: 1em;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #space-center {
+        margin: 1em 0;
+    }
+
+    #bottom-header {
+        padding-top: 0;
+    }
+
+    #visual-design >h1 {
+        white-space: nowrap;
+        font-size: 7vw;
+    }
+
+    #park-city >h2 {
+        font-size: 5vw;
+    }
+    #selected-work {
+        padding: 0;
+    }
+    /*#security-box {*/
+    /*    display: flex;*/
+    /*}*/
+    /*#macbook {*/
+    /*    display: flex;*/
+    /*}*/
+    /*#head {*/
+    /*    display: flex;*/
+    /*}*/
+    /*#security {*/
+    /*    display: flex;*/
+    /*}*/
+    /*#head-row {*/
+    /*    flex-wrap: wrap;*/
+    /*    margin: -1px 0 0 -12px;*/
+    /*    width: calc(40% + 12px);*/
+    /*    font-family: 'Anton', sans-serif;*/
+    /*    font-weight: bolder;*/
+    /*    text-align: center;*/
+
+    /*}*/
 }
+
+@media screen and (min-width: 700px) {
+}
+
+@media screen and (min-width: 1024px) {  }
+}
+

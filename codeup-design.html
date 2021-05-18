@@ -1,109 +1,172 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+    <html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-              integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="css/codeup-design.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <title>codeup design</title>
     </head>
     <body>
-    <div id="mobile-xs">
-        <img src="assets/logo.png">
-
-        <h1>codeup design</h1>
-        <div class="row">
-            <div class="col-sm-3">
-                SERVICES
-            </div>
-            <div class="col-sm-3">
-                WORK
-            </div>
-            <div class="col-sm-3">
-                BLOG
-            </div>
-            <div class="col-sm-3">
-                CONTACT
-            </div>
-            <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            <h1>FROM PARK CITY, UTAH</h1>
-            <div>
-                <div class="col"> DESIGN DEVELOP</div>
-                <div class="col"> SUPPORT HOST</div>
-            </div>
-            <h1>Selected Work</h1>
-            <img src="assets/images/apple-ipad.jpg">
-
+        <div id="mobile-xs">
+        <header></header>
+        <div class="position-absolute" id="image">
+            <img src="assets/logo.png" width="140" height="140">
+        </div>
+        <header id="bottom-header">
+            <h1 id="codeup-design">codeup design</h1>
+        </header>
+        <div id="body">
+            <div class="row" id="services-work">
+                <div class="col-xs">
+                    SERVICES
                 </div>
+                <div class="col-xs">
+                    WORK
+                </div>
+                <div class="d-md-none" id="space-center"></div>
+                <div class="col-xs">
+                    BLOG
+                </div>
+                <div class="col-xs">
+                    CONTACT
+                </div>
+            </div>
+            <div id="visual-design">
+                <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            </div>
+            <div id="park-city">
+                <h2>FROM PARK CITY, UTAH</h2>
+            </div>
+            <div class="container" id="firstRow">
+                    <div class="red circle mx-auto">
+                        <div id="design-circle-text">
+                            DESIGN
+                        </div>
+                    </div>
+                    <div class="orange circle mx-auto">
+                        <div id="develop-circle-text">
+                            DEVELOP
+                        </div>
+                    </div>
+                    <div class="green circle mx-auto">
+                        <div id="support-circle-text">
+                            SUPPORT
+                        </div>
+                    </div>
+                    <div class="blue circle mx-auto">
+                        <div id="host-circle-text">
+                            HOST
+                        </div>
+                    </div>
+            </div>
+            <hr>
+            <div id="selected-work">
+                <p>Selected Work</p>
+            </div>
+
+            <div id="apple-box" class="featured container">
+                <div id="apple">
+                    <img src="assets/images/apple-ipad.jpg"
+                         height="200"
+                         width="290">
+                </div>
+                <p>Featured Work</p>
+                <div class="small-circle-row row row-no-padding">
+                    <div class="row">
+                        <div class="red sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="orange sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="green sml-circle mx-auto">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="blue sml-circle mx-auto">H</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="macbook-box" class="featured container">
+                <div id="macbook">
+                    <img src="assets/images/macbook.jpg"
+                         height="200"
+                         width="290">
+                </div>
+                <p>Featured Work</p>
+                <div class="small-circle-row row row-no-padding">
+                    <div class="row">
+                        <div class="red sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="orange sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="green sml-circle mx-auto">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="blue sml-circle mx-auto">H</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="head-box" class="featured container">
+                <div id="head">
+                    <img src="assets/images/head.jpg"
+                         height="200"
+                         width="290">
+                </div>
+                <p>Featured Work</p>
+                <div class="small-circle-row row row-no-padding">
+                    <div class="row">
+                        <div class="red sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="orange sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="green sml-circle mx-auto">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="blue sml-circle mx-auto">H</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="security-box" class="featured container">
+                <div id="security">
+                    <img src="assets/images/security.jpg"
+                         height="200"
+                         width="290">
+                </div>
+                <p>Featured Work</p>
+                <div class="small-circle-row row row-no-padding">
+                    <div class="row">
+                        <div class="red sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="orange sml-circle mx-auto">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="green sml-circle mx-auto">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="blue sml-circle mx-auto">H</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-<!--                                     VERY SMALL                              -->
-<!--            Program mobile first--> DONE
-<!--            First Item: Image--> DONE
-<!--            Second Item: code up design in a div (header)--> DONE
-<!--            Third Item: ul services etc...--> DONE
-<!--            Fourth Item: (header) wrap--> DONE
-<!--            Fifth Item: Park city header--> DONE
-<!--            Sixth Item: div (circles) Design, develop...-->
-<!--            Seventh Item: Selected work h tag tag-->
-<!--            Eight Item: img in grey border-->
-<!--            Ninth Item: Features project (50%) 4Circles(50%) bootstrap-->
-<!--                           ````END of Very Small/Mobile```-->
-<!--                                Small Size Screen-->
-<!--                                    [Centered]-->
-<!--        First Item: div with image, header, 4 ul -->
-<!--        Second item: code up design-->
-<!--        Third Item: Visual Design h tag-->
-<!--        Fourth Item: From park... h tag-->
-<!--        Fifth Item: 4 circle centered row-->
-<!--        Sixth Item: line break width of circles-->
-<!--        Seventh Item: selected.. h tag-->
-<!--        Eighth Item: 2 img grey border-->
-<!--        Ninth Item: 10 Items on one line-->
-<!--        Tenth Item: 2 img grey border-->
-<!--        Eleventh Item: repeat 9&10-->
-<!--                           ````END of Small ```-->
-<!--                            Medium-->
-<!--        First Item: |img|code up design|````````|ul service...|-->
-<!--        Second Item: Visual design centered  -->
-<!--        Third Item: From... h tag-->
-<!--        Fourth Item: 4 circle centered row-->
-<!--        Fifth Item: line break 100% width-->
-<!--        Sixth Item: Selected work && The last same line-->
-<!--        Seventh Item: nested div img (grey border) & header-->
-<!--        Eighth Item: 2x Feature... 4 circles-->
-<!--        Ninth Item: img+text-->
-<!--        Tenth Item: 2 img tweet + text box-->
-<!--        Eleventh Item: repeat 8-->
-<!--        Larger and Very Larger-->
-<!--        make following items centered -->
-<!--        First Item: |img|code up design|````````|ul service...|-->
-<!--        Second Item: Visual design centered  -->
-<!--        Third Item: From... h tag-->
-<!--        Fourth Item: 4 circle centered row-->
-<!--        Fifth Item: line break 100% width-->
-<!--        Sixth Item: Selected work && The last same line-->
-<!--        Seventh Item: nested div img (grey border) & header-->
-<!--        Eighth Item: 2x Feature... 4 circles-->
-<!--        Ninth Item: img+text-->
-<!--        Tenth Item: 2 img tweet + text box-->
-<!--        Eleventh Item: repeat 8-->
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-        crossorigin="anonymous"></script>
-</body>
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </body>
 </html>
